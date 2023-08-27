@@ -341,6 +341,10 @@ footer a {
         width: 100%;
     }
 
+    .dark .card:hover, .dark .o-card:hover {
+        background: hsl(233, 24%, 27%);
+    }
+
 }
 
 @media (min-width: 992px) {
