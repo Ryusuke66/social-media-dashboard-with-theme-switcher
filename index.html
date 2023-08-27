@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Social media dashboard with theme switcher</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="left">
+      <h1>Social Media Dashboard</h1>
+      <div class="total">Total Followers: 23,004</div>
+    </div>
+    <hr>
+    <div class="flex">
+      <div>Dark Mode</div>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider"></span>
+      </label>
+    </div>
+  </header>
+  <main>
+    <div class="dashboard">
+      <div class="card facebook">
+        <div class="header">
+          <img src="images/icon-facebook.svg" alt="facebook">
+          <div class="at">@nathanf</div>
+        </div>
+        <div class="num">1987</div>
+        <div class="followers">Followers</div>
+        <div class="today">12 Today</div>
+      </div>
+      <div class="card twitter">
+        <div class="header">
+          <img src="images/icon-twitter.svg" alt="twitter">
+          <div class="at">@nathanf</div>
+        </div>
+        <div class="num">1044</div>
+        <div class="followers">Followers</div>
+        <div class="today">99 Today</div>
+      </div>
+      <div class="instagram">
+        <div class="card">
+          <div class="header">
+            <img src="images/icon-instagram.svg" alt="instagram">
+            <div class="at">@realnathanf</div>
+          </div>
+          <div class="num">11k</div>
+          <div class="followers">Followers</div>
+          <div class="today">1099 Today</div>
+        </div>
+      </div>
+      <div class="card youtube">
+        <div class="header">
+          <img src="images/icon-youtube.svg" alt="youtube">
+          <div class="at">Nathan F.</div>
+        </div>
+        <div class="num">8239</div>
+        <div class="followers">Subscribers</div>
+        <div class="today">144 Today</div>
+      </div>
+    </div>
+    <h2>Overview - Today</h2>
+    <div class="overview">
+      <div class="o-card">
+        <div>Page Views</div>
+        <img src="images/icon-facebook.svg" alt="facebook">
+        <div class="o-num">87</div>
+        <div class="per">3%</div>
+      </div>
+      <div class="o-card">
+        <div>Likes</div>
+        <img src="images/icon-facebook.svg" alt="facebook">
+        <div class="o-num">52</div>
+        <div class="per down">2%</div>
+      </div>
+      <div class="o-card">
+        <div>Likes</div>
+        <img src="images/icon-instagram.svg" alt="instagram">
+        <div class="o-num">5462</div>
+        <div class="per">2257%</div>
+      </div>
+      <div class="o-card">
+        <div>Profile Views</div>
+        <img src="images/icon-instagram.svg" alt="instagram">
+        <div class="o-num">52k</div>
+        <div class="per">1375%</div>
+      </div>
+      <div class="o-card">
+        <div>Retweets</div>
+        <img src="images/icon-twitter.svg" alt="twitter">
+        <div class="o-num">117</div>
+        <div class="per">303%</div>
+      </div>
+      <div class="o-card">
+        <div>Likes</div>
+        <img src="images/icon-twitter.svg" alt="twitter">
+        <div class="o-num">507</div>
+        <div class="per">553%</div>
+      </div>
+      <div class="o-card">
+        <div>Likes</div>
+        <img src="images/icon-youtube.svg" alt="youtube">
+        <div class="o-num">107</div>
+        <div class="per down">19%</div>
+      </div>
+      <div class="o-card">
+        <div>Total Views</div>
+        <img src="images/icon-youtube.svg" alt="youtube">
+        <div class="o-num">1407</div>
+        <div class="per down">12%</div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/Ryusuke66" target="_blank">Yassine Ghezal</a>.
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
