@@ -34,10 +34,10 @@ Users should be able to:
 ## Mobile design
 
 <p float='left'>
-  <img src='screenshots/mobile-design-light-mode-1.png' width='25%'/>
-  <img src='screenshots/mobile-design-light-mode-2.png' width='25%'/>
-  <img src='screenshots/mobile-design-dark-mode-1.png' width='25%'/>
-  <img src='screenshots/mobile-design-dark-mode-2.png' width='25%'/>
+  <img src='screenshots/mobile-design-light-mode-1.png' width='24%'/>
+  <img src='screenshots/mobile-design-light-mode-2.png' width='24%'/>
+  <img src='screenshots/mobile-design-dark-mode-1.png' width='24%'/>
+  <img src='screenshots/mobile-design-dark-mode-2.png' width='24%'/>
 </p>
 
 ### Links
